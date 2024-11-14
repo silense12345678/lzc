@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #DFF0D8; /* Light green background */
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #4CAF50; /* Green background */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .back-link {
+            position: absolute;
+            left: 10px; /* Adjust based on your design */
+            top: 20px; /* Adjust based on your design */
+            cursor: pointer;
+        }
+        .back-link i {
+            font-size: 1.5em; /* Adjust icon size */
+            color: white;
+        }
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            color: #4CAF50; /* Green title */
+            margin-top: 0;
+        }
+        .content p {
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        .image-table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            border: 4px solid #4CAF50; /* Green border */
+        }
+        .image-table td {
+            padding: 5px;
+            border: 2px solid #4CAF50; /* Green border */
+            width: 50%; /* Each cell takes up half the width */
+        }
+        .image-table img {
+            width: 100%; /* Images will resize to fit the cell */
+            height: auto;
+            border-radius: 4px;
+            object-fit: cover; /* Ensures images maintain aspect ratio */
+        }
+    </style>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="javascript:history.back();" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back</a>
+            <h1>About Me</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="content">
+            <h2>My Profile</h2>
+            <p>I am from Wuhan, Hubei, and currently studying Computer Science at Huazhong University of Science and Technology.<br>I spent my primary and junior high school years in the Shuiguohu area of Wuchang District and graduated from Hsyfz.<br>I have developed a habit of taking a nap and watching the NBA at noon every day, supporting the Los Angeles Clippers and Memphis Grizzlies, of course, Oklahoma City Thunder and Minnesota Timberwolves are also okay.<br>I occasionally watch CSGO, unconditionally supporting Niko and G2. I like Thursdays because there are physical education classes, not freshman practice.<br>If you want to know more, you can consult 1664611**8@qq.com</p>
+            
+            <!-- 2x2 Image Table -->
+            <table class="image-table">
+                <tr>
+                    <td><img src="images/ja.jpg" alt="Image 1"/></td>
+                    <td><img src="images/clipper.jpg" alt="Image 2"/></td>
+                </tr>
+                <tr>
+                    <td><img src="images/niko.jpg" alt="Image 3"/></td>
+                    <td><img src="OIP.jpg" alt="Image 4"/></td>
+                </tr>
+            </table>
+        </div>
+        <p><a href="index.html" target="_blank">Click here to return to the homepage!</a></p>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2024 My Personal Homepage</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的项目</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #4CAF50; /* 绿色背景 */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .project-table {
+            width: 100%;
+            margin-top: 20px;
+            background: white;
+            border-collapse: collapse;
+            border-radius: 8px; /* 圆角边框 */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 阴影效果 */
+        }
+        .project-table thead {
+            background: #4CAF50; /* 绿色标题背景 */
+            color: white;
+        }
+        .project-table th, .project-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .project-table th {
+            font-size: 1.2em;
+        }
+        .project-table img {
+            width: 100px;
+            height: auto;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* 添加图片样式 */
+        .personal-image {
+            display: block; /* 使图片独占一行 */
+            margin: 20px auto; /* 上下外边距为20px，左右自动（水平居中） */
+            width: 60%; /* 图片宽度 */
+            border-radius: 8px; /* 圆角边框 */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 阴影效果 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>我的项目</h1>
+        </div>
+    </header>
+    
+   
+    <div class="container">
+        <table class="project-table">
+            <thead>
+                <tr>
+                    <th colspan="2">项目名称</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="images/award.png" width="3048" height="2004" alt=""/></td>
+                    <td><strong>项目1 算法竞赛组</strong><br>2024算法竞赛一等奖，本人于项目中负责宣传工作。正如你现在看见的这个项目，即宣传的一部分</td>
+                </tr>
+                <tr>
+                    <td><img src="images/05A59BE484B4F4C2A6551FD67EA3B39B.jpg" width="1084" height="1193" alt=""/></td>
+                    <td><strong>项目2  关于《VIVA LA VIDA》的艺术鉴赏</strong><br>本文是对于墨西哥画家dois sandois的画作《VIVA LA VIDA》的较不权威的评论，个人观点仅供参考</td>
+                </tr>
+                <!-- 更多项目 -->
+            </tbody>
+        </table>
+    </div>
+    <p><a href="Untitled-1.html" target="_blank">点击此处返回首页！</a></p>
+    <footer>
+        <div class="container">
+            <p>版权所有 &copy; 2024 我的个人网页</p>
+        </div>
+    </footer>
+</body>
+</html>

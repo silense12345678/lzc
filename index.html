@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #CBD431; /* Light green background */
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #4CAF50; /* Green background */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .main-content {
+            background: #DFF0D8; /* Light green background for non-table parts */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px; /* Rounded borders */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Shadow effect */
+        }
+        .main-content h2 {
+            color: #4CAF50; /* Green title */
+            margin-top: 0;
+        }
+        .main-content p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Circular image */
+            overflow: hidden;
+            margin: 20px auto;
+            background: #ddd; /* Background color */
+        }
+        .profile-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        header table, header th, header td {
+            border: 2px solid white; /* White and thicker border for header table */
+        }
+        .main-content table, .main-content th, .main-content td {
+            border: 2px solid #FFD700; /* Yellow border for other tables */
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        a:link {
+            color: #1D873B;
+        }
+        a:active {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to LZC's Personal Homepage!</h1><br><br>
+            <table>
+                <tr> 
+                    <th><a href="Untitled-1.html" style="color: white; text-decoration: none;">Home</a></th>
+                    <th><a href="关于我.html" style="color: white; text-decoration: none;">About Me</a></th>
+                    <th><a href="我的技能.html" style="color: white; text-decoration: none;">My Skills</a></th>
+                    <th><a href="Untitled-2.html" style="color: white; text-decoration: none;">My Projects</a></th>
+                    <th><a href="留言板.html" style="color: white; text-decoration: none;">Contact Me</a></th>
+                </tr>
+            </table>
+        </div>
+    </header>
+    
+    <div class="main-content">
+      <div class="container">
+            <div class="profile-image">
+              <img src="images/6C8EEBA2622F2915AA73D5A7C253B919.jpg" alt="Profile Image">
+            </div>
+            
+          <h2>Basic Information</h2>
+          <table>
+            <tr>
+              <th>Name</th>
+              <td>LZC</td>
+            </tr>
+            <tr>
+              <th>Occupation</th>
+              <td>Undergraduate Student at Huazhong University of Science and Technology, School of Computer Science</td>
+            </tr>
+            <tr>
+              <th>Residence</th>
+              <td>China</td>
+            </tr>
+            <tr>
+              <th>Contact</th>
+              <td>1664611**8@qq.com</td>
+            </tr>
+          </table>
+
+          <h2>Visitor Statistics</h2>
+          <table>
+            <tr>
+              <th>Total Visitors</th>
+              <td>101</td>
+            </tr>
+            <tr>
+              <th>Monthly Visitors</th>
+              <td>59</td>
+            </tr>
+            <tr>
+              <th>Daily Visitors</th>
+              <td>27</td>
+            </tr>
+          </table>
+
+          <h2><a href="关于我.html" target="_blank">About Me</a></h2>
+          <p>Here is some personal information about me, such as my background, experiences, and interests.</p>
+            
+            <h2><a href="我的技能html" target="_blank">My Skills</a></h2>
+            <p>I am constantly learning and improving to keep pace with the times.</p>
+            
+            <h2><a href="Untitled-2.html" target="_blank">My Projects</a></h2>
+            <p>I have participated in multiple projects, both individual and team-based. These projects have given me the opportunity to practice my skills and help me grow into a better creator.</p>
+        </div>
+        <p><a href="留言板.html" target="_blank">If you want to say something or contact me privately, please click here!</a></p>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2024 My Personal Homepage</p>
+        </div>
+    </footer>
+</body>
+</html>
